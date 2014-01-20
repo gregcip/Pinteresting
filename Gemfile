@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 1.2'
 #devise gem to allow us to add user signups
 gem "devise", "~> 3.2.2"
 
+#paperclip gem to manipulate images
+gem 'paperclip', '~> 3.0'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
